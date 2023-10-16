@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/156d4e89cb.js" crossorigin="anonymous"></script>
+    <title>::CUSTOM RATING UI::</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1e252f;
+    }
+
+.container {
+    width: 600px;
+    height: 600px; 
+    background-color: #1e252f;
+    border: 2px #4d637d;
+    border-radius: 30px;
+}
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.star {
+    color: #fc7613;
+    background-color: #4d637d;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: larger;
+    margin: 0 0 30 0;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #4d637d;
+    text-align: center;
+    line-height: 1.4em;
+
+}
+
+.btn button {
+    background-color: #4d637d;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+}
+
+.btn button:hover {
+    background-color: #fc7613;
+    cursor: pointer;
+}
+.btn {
+ margin: 50px 0 50px;
+
+}
+
+.submit button{
+    height: 60px;
+    width: 500px;
+    background-color: #fc7613;
+    border: none;
+    color: white;
+    border-radius: 30px;
+}
+</style>
+
+<body>
+    <div class="container">
+
+        <main>
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h1>How did we do</h1>
+            <h4>Please let us know how we did with your support.
+                <br>All feedback is appreciated to help us <br>improve our offerings!
+            </h4>
+            <div class="btn">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+
+            </div>
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>
