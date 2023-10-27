@@ -1,0 +1,29 @@
+:root {
+    --primary: #d87d41;
+    --secondary: #101010;
+    --tritary: #f1f1f1;
+    --quarternary: #fafafa;
+    --primary-2: #fbaf85;
+    --secondary-2: #ffffff;
+    --tertiary-2: #000000;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*Small screens*/
+@media (min-width: 640px) {
+}
+/*Medium screens*/
+@media (min-width: 768px) {
+}
+/*Large screens*/
+@media (min-width: 1024px) {
+}
+/*Extra Large screens*/
+@media (min-width: 1280px) {
+}
